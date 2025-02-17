@@ -1,6 +1,6 @@
 # Prism
 
-Modern & Interactive Open-source Charts - within WaxedPHP environment.
+Lightweight, extensible syntax highlighter - within WaxedPHP environment.
 
 This package contains helper plugin functionality for WaxedPHP.
 All required third party sources will be downloaded to npm during composer installation.

@@ -1,5 +1,7 @@
 # Prism
 
+Lightweight, extensible syntax highlighter.
+
 MIT license
 
 
