@@ -4,21 +4,11 @@ Lightweight, extensible syntax highlighter.
 
 MIT license
 
-
-### HTML:
-
-```
-
-<div class="waxed-boilerplate"
-data-name="payload1"
-></div>
-
-
-```
+---
 
 ### PHP:
 
-```
+```php
 
 $this->waxed->display([
   'payload' =>
@@ -29,5 +19,24 @@ $this->waxed->display([
 
 
 ```
+
+---
+
+### HTML:
+
+```html
+
+<div class="waxed-boilerplate"
+data-name="payload1"
+></div>
+
+
+```
+
+---
+---
+
+### Options:
+
 
 

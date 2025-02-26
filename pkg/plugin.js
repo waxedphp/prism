@@ -10,8 +10,8 @@
         inited = false
         ;
         
-        window.Prism = window.Prism || {};
-        window.Prism.manual = true;
+        //window.Prism = window.Prism || {};
+        //window.Prism.manual = true;
 
     function Instance(pluggable,element,dd){
       var that = this;

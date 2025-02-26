@@ -38,7 +38,7 @@ class Setter extends \Waxedphp\Waxedphp\Php\Setters\AbstractSetter {
   * @param mixed $value
   * @return array<mixed>
   */
-  public function value(mixed $value): array {
+  public function value(mixed $value = null): array {
     $a = [];
     $b = $this->getArrayOfAllowedOptions();
     if (!empty($b)) {

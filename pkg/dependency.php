@@ -17,8 +17,12 @@ return [
   'css' => [
     NODE . '/prismjs/themes/prism.css',
     //NODE . '/prismjs/themes/prism-solarizedlight.css',
+    //NODE . '/prismjs/themes/prism-twilight.css',
+    //NODE . '/prismjs/themes/prism-coy.css',
     //NODE . '/prismjs/themes/prism-dark.css',
     //NODE . '/prismjs/themes/prism-funky.css',
+    //NODE . '/prismjs/themes/prism-okaidia.css',
+    //NODE . '/prismjs/themes/prism-tomorrow.css',
     NODE . '/prismjs/plugins/line-numbers/prism-line-numbers.css',
     NODE . '/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.css',
     $PATH . '/style.css',
