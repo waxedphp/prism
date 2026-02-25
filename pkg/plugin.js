@@ -9,7 +9,7 @@
         },
         inited = false
         ;
-        
+
         //window.Prism = window.Prism || {};
         //window.Prism.manual = true;
 
@@ -43,7 +43,7 @@
           redraw = true;
         };
       },
-      
+
       this.setContent = function(s) {
         $(that.element).empty();
         var a = $('<code></code>');
@@ -55,12 +55,13 @@
         //b.addClass('line-numbers');
         this.highlightElement();
       },
-      
+
       this.highlightElement = function() {
         $(that.element).find('code').each(function(i,a){
           //console.log(a);
           Prism.highlightElement(a);
-        });        
+          //$(a).hide();
+        });
       },
 
       this.free = function() {
